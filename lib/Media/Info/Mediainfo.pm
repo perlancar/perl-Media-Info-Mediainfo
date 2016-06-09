@@ -9,7 +9,7 @@ use warnings;
 use Log::Any::IfLOG '$log';
 
 use Capture::Tiny qw(capture);
-use Log::Any::For::Builtins qw(system);
+use IPC::System::Options 'system', -log=>1;
 use Perinci::Sub::Util qw(err);
 
 require Exporter;
