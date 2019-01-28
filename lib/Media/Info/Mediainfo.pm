@@ -74,6 +74,7 @@ sub get_media_info {
             $info->{video_height} = $val+0 if $key eq 'Height/String';
             $info->{video_aspect} = $1/$2 if $key eq 'DisplayAspectRatio/String' && $val =~ /(\d+):(\d+)/;
             $info->{video_fps} = $val+0 if $key eq 'FrameRate/String';
+            $info->{rotate} = $1 if $key eq 'Rotation/String' && $val =~ /(\d+)/;
             # XXX video_bitrate
         } elsif ($cur_section =~ /^Audio/) {
             # XXX handle multiple audio streams
