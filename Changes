@@ -1,22 +1,22 @@
-0.004   2019-01-28 (PERLANCAR)
+0.004   2019-01-28  Released-By: PERLANCAR
 
 	- Add 'rotate' information.
 
 
-0.003   2017-07-10 (PERLANCAR)
+0.003   2017-07-10  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Replace Log::Any with Log::ger.
 
 
-0.002   2016-06-09 (PERLANCAR)
+0.002   2016-06-09  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- [dist] Replace Log::Any::For::Builtins with IPC::System::Options.
 
 
-0.001   2016-04-06 (PERLANCAR)
+0.001   2016-04-06  Released-By: PERLANCAR
 
         - First release.
